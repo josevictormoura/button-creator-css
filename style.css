@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background: #ccc;
+}
+
+
+label{
+    display: block;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+input{
+    display: block;
+}
+
+.button-creator{
+    display: grid;
+    gap: 30px;
+    padding: 30px;
+    grid-template-columns: 230px 1fr;
+}
+
+#controles {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .875rem;
+    background-color: #eee;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .1);
+    padding: 1rem;
+}
+
+.css{
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.css span{
+    display: block;
+    margin-bottom: 0.5rem;
+}
